@@ -10,9 +10,9 @@ connection = mysql.connector.connect(user='root', password='NDM5NC1yYWNoZW1l',ho
 
 cursor = connection.cursor()
 # Connect to DB2
-dsn_hostname = "9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
-dsn_uid = "mcg68444"        # e.g. "abc12345"
-dsn_pwd = "BQQMNDPc85nfqPSv"      # e.g. "7dBZ3wWt9XN6$o0J"
+dsn_hostname = "" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
+dsn_uid = ""        # e.g. "abc12345"
+dsn_pwd = ""      # e.g. "7dBZ3wWt9XN6$o0J"
 dsn_port = "32459"                # e.g. "50000" 
 dsn_database = "bludb"            # i.e. "BLUDB"
 dsn_driver = "{IBM DB2 ODBC DRIVER}" # i.e. "{IBM DB2 ODBC DRIVER}"           
